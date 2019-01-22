@@ -1,3 +1,4 @@
+// can be extended keeping the same interface
 export const accentMap = new Map([
     [["è", "é", "ê", "ë", "ē", "ė", "ę"], "e"],
     [["ÿ"], "y"],
@@ -23,6 +24,7 @@ export const accentMap = new Map([
     [["Ñ", "Ń"], "N"]
 ])
 
+// can be extended keeping the same interface
 export const specialCharsMap = new Map([
     [["&"], "and"],
     [["&"], ""],
